@@ -17,7 +17,7 @@ $(document).ready(function(){
     $('.close').click(closeWeb)
     
     function closeWeb(){
-            $gnbMenu.show().animate({left:-2000},400);
+            $gnbMenu.show().animate({left:-1000},400);
             $('.line1').removeClass('open1');
             $('.line2').removeClass('open2');
             $('.line3').removeClass('open3');
@@ -37,7 +37,7 @@ $(document).ready(function(){
     $('.m_close').click(closeMobile)
     
     function closeMobile(){
-            $gnbMenu.show().animate({left:-2000},400);
+            $gnbMenu.show().animate({left:-1000},400);
             $('.m_line1').removeClass('open1');
             $('.m_line2').removeClass('open2');
             $('.m_line3').removeClass('open3');
