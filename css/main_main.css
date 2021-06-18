@@ -387,7 +387,7 @@ body{
 @media screen and (max-width: 780px){
     #visual{
         height: 800px;
-		background-image: url(../img/m_main_bg.png);
+		background-image: url(../img/pad_main_bg.png);
     }
     #visual .wrapper .text .tit_text img{
         width: 450px
@@ -434,22 +434,22 @@ body{
 /***********(480)**********/
 @media screen and (max-width: 480px){
     #visual{
-        height: 600px;
+        height: 100vh;
         padding-top:50px;
         background-position: right 50px;
-        background-image: url(../img/m_visual_main.png);
+        background-image: url(../img/m_main_bg.png);
     }
     #visual .wrapper .text{
         padding-bottom: 220px;
     }
     #visual .wrapper .text .tit_text img{
-        width: 320px
+        width: 340px
     }
      #visual .wrapper .text .tit_desc{
         padding-top: 25px
     }
     #visual .wrapper .text .tit_desc img{
-        width: 240px
+        width: 340px
     }
     #visual .wrapper .scroll_down{
         right: -10%;
@@ -465,7 +465,7 @@ body{
 /*****(375)*****/
 @media screen and (max-width: 375px){ 
     #visual{
-        height: 550px;
+        height: 100vh;
     }
     #visual .wrapper .text{
         padding-bottom: 180px;
