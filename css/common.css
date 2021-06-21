@@ -134,7 +134,7 @@ body{
     background-color: #000;
     position: absolute;
     top:80px;
-    left:-2000px;
+    left:-1000px;
     z-index:4;
     height:100vh;
     -webkit-height: 100vh;
@@ -210,7 +210,7 @@ body{
     background-color:#eee;
     height: 300px;
     text-align: center;
-    color: #707070;
+    color: #fff;
     font-family: 'Nexa';
     display: table;
     width: 100%;
@@ -219,14 +219,44 @@ body{
     display: table-cell;
     vertical-align: middle;
 }
-#footer .wrapper .foot_logo{
+#footer .wrapper .footer_text{
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	z-index: 10;
+}
+#footer .wrapper .footer_text .foot_logo{
     font-weight: 700;
     margin-bottom: 15px;
 	margin-top: 15px;
     font-size: 2rem
 }
-#footer .wrapper .copy{
+#footer .wrapper .footer_text .copy{
     font-size: 1.4rem
+}
+
+#footerVideo{
+	width:100%;
+	height:300px;
+	overflow:hidden;
+	margin:0 auto;
+	position:relative;
+	background-color:#fff;
+	z-index: 9;
+}
+#videobg{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	min-width:100%;
+	min-height:100%;
+	width:auto;
+	height:auto;
+	z-index:21;
+	overflow:hidden;
+	opacity:.9;
 }
 
 /**********************************************/
@@ -362,6 +392,10 @@ body{
         height: 200px;
         text-align: left;
     } 
+	#footer .wrapper .footer_text{
+		width: 100%;
+		top: 40%;
+	}
 	#footer .wrapper .foot_img{
 		margin-left: 4%;
 	}
