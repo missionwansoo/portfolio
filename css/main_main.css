@@ -138,10 +138,16 @@ body{
 #container .container1 .con_title .con_tit{
     font-size: 4.5rem;
 }
+#container .container1 .con_title span{
+	font-size: 2rem;
+	margin-top: 20px;
+	display: block;
+}
 #container .container1 .content{
     width: 100%;
     font-size: 0;
-    overflow-x: hidden
+    overflow-x: hidden;
+	text-align: left;
 }
 #container .container1 .content li{
     display: inline-block;
@@ -149,7 +155,7 @@ body{
     margin-right:2.33%; 
     box-sizing: border-box;
     position: relative;
-    margin-bottom:70px;
+    margin-bottom:50px;
     opacity: 0;
     margin-top: 100px;
 }
@@ -180,7 +186,8 @@ body{
     height: 19vw;
 }
 #container .container1 .content li a .hidden{
-     overflow: hidden   
+     overflow: hidden;
+	position: relative;
 }
 #container .container1 .content li a .hidden .bg{
     background-repeat: no-repeat;
@@ -244,25 +251,35 @@ body{
 #container .container1 .content .portbox16 a .hidden .bg{
     background-image:url(../img/thum/main_thum4.png);
 }
+#container .container1 .content li a button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #fff;
+	border-radius: 40px;
+	box-sizing: border-box;
+	color: #22408f;
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.5rem;
+	padding: 0 40px;
+	display: none;
+	cursor: pointer;
+	transition: 0.5s;
+}
 #container .container1 .content li a .desc{
     width: 100%;
-    display: none;
-    position: absolute;
-    text-align: center;
-    top:50%;
-    left: 0;
-    transform: translateY(-50%);
+    text-align: left;
+	padding-top: 20px;
 }
 #container .container1 .content li a .desc .type .type_desc{
     font-size: 1.5rem;
-}
-#container .container1 .content li a .desc .type .type_dot{
-    margin: 5px 0 13px 0;
+	margin: 10px 0;
 }
 #container .container1 .content li a .desc .thumb_tit{
-    margin-bottom: 7px;
     font-weight: 700;
-    padding: 0 10px;
     line-height: 1.2;
     font-size: 1.8rem
 }
@@ -271,13 +288,33 @@ body{
     color:#7a7a7a;
     font-weight: 300;
 }
-#container .container1 .content li:hover .hidden .bg{
+#container .container1 .content li a:hover .hidden .bg{
     animation: pulse 0.7s;
     opacity: 0.1;
     transition: 0.5s;
 }
-#container .container1 .content li:hover .desc{
+#container .container1 .content li:hover .hidden{
+    background: #22408f;
+}
+#container .container1 .content li:hover button{
+	display: block;
+	transition: 0.5s;
+}
+#container .container1 .btn{
+    text-align: center
+}
+#container .container1 .btn a{
     display: inline-block;
+    font-family: 'Nexa';
+    margin-top:70px;
+    color: #000;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 3rem
+}
+#container .container1 .btn a:hover {
+    color: #fe0000;
+    transition: 0.4s;
 }
 /*************************************************/
 
