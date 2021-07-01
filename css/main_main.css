@@ -60,6 +60,7 @@ body{
     font-weight: 700;
     left: 5%;
     z-index: 14;
+	text-align: left;
     color: #00e701;
 /*    transform: rotate(90deg);*/
     -moz-animation-duration: 1.6s;
@@ -425,6 +426,9 @@ body{
     #visual{
         height: 800px;
 		background-image: url(../img/pad_main_bg.png);
+		background-position: center center;
+    	background-size: cover;
+    	background-attachment: fixed;
     }
     #visual .wrapper .text .tit_text img{
         width: 450px
@@ -475,7 +479,10 @@ body{
         padding-top:50px;
         background-position: right 50px;
         background-image: url(../img/m_main_bg.png);
-    }
+		background-position: center center;
+    	background-size: cover;
+    	background-attachment: fixed;
+	}
     #visual .wrapper .text{
         padding-bottom: 220px;
     }
