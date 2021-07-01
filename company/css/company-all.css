@@ -33,6 +33,7 @@ body{
     max-width: 1920px;
     margin: 0 auto;
 	padding-bottom: 180px;
+	text-align: left;
 }
 #visual .wrapper .visualwrap::after{
     background-color: #222;
@@ -69,7 +70,8 @@ body{
 #container .container1 .content{
     width: 100%;
     font-size: 0;
-    overflow-x: hidden
+    overflow-x: hidden;
+	text-align: left;
 }
 #container .container1 .content li{
     display: inline-block;
@@ -216,9 +218,6 @@ body{
 #container .container1 .content li a .desc .type .type_desc{
     font-size: 1.5rem;
 	margin: 10px 0;
-}
-#container .container1 .content li a .desc .type .type_dot{
-    margin: 5px 0 13px 0;
 }
 #container .container1 .content li a .desc .thumb_tit{
     font-weight: 700;
