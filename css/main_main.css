@@ -11,6 +11,7 @@ body{
     position: relative;
     overflow: hidden;
     background-image: url(../img/main_bg.png);
+	background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 	background-attachment:fixed;
@@ -406,7 +407,7 @@ body{
 /*****(1024-750)*****/
 @media screen and (max-width: 1024px){
     #visual{
-        height: 1000px;
+        height: 100%;
     }
     #visual .wrapper .text{
         padding-bottom: 150px;
@@ -424,8 +425,9 @@ body{
 /*****(780)*****/
 @media screen and (max-width: 780px){
     #visual{
-        height: 800px;
+        height: 100%;
 		background-image: url(../img/pad_main_bg.png);
+		background-repeat: no-repeat;
 		background-position: center center;
     	background-size: cover;
     	background-attachment: fixed;
@@ -475,10 +477,11 @@ body{
 /***********(480)**********/
 @media screen and (max-width: 480px){
     #visual{
-        height: 100vh;
+        height: 100%;
         padding-top:50px;
         background-position: right 50px;
         background-image: url(../img/m_main_bg.png);
+		background-repeat: no-repeat;
 		background-position: center center;
     	background-size: cover;
     	background-attachment: fixed;
@@ -509,7 +512,7 @@ body{
 /*****(375)*****/
 @media screen and (max-width: 375px){ 
     #visual{
-        height: 100vh;
+        height: 100%;
     }
     #visual .wrapper .text{
         padding-bottom: 180px;
