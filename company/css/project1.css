@@ -1,5 +1,7 @@
 #visual .visual_img{
-    background-image: url(../img/project1/personal3_visual.png);
+    background-image: url(../img/project1/personal1_visual.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 #container .text{
     line-height: 1.5;
