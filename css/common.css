@@ -197,28 +197,6 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-#container .con_under_btn{
-    text-align: center;
-	margin-top: 20px;
-	display: inline-block;
-}
-#container .con_under_btn a{
-    display: block;
-	padding: 10px 50px;
-	border: 1px solid #22408f;
-	border-radius: 50px;
-	box-sizing: border-box;
-    font-family: 'Nexa';
-    color: #22408f;
-    font-weight: 700;
-    font-size: 3rem;
-	transition: 0.5s;
-}
-#container .con_under_btn a:hover {
-    color: #fff;
-	background: #22408f;
-	border-radius: 50px;
-}
 /********************footer**********************/
 #footer{
     background-color:#eee;

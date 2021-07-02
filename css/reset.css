@@ -56,6 +56,11 @@ img {
 }
 html,body { height: 100%; }
 input, select, textarea { outline: none }
+.clear::after{
+	clear: both;
+	content: "";
+	display: block;
+}
 
 
 
