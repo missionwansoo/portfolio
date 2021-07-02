@@ -3,7 +3,6 @@ body{
     color: #222;
 }
 #visual{
-    width: 100%;
     background-color: #22408f;
     height: 100vh;
     color: #fff;
@@ -13,8 +12,11 @@ body{
     background-image: url(../img/main_bg.png);
 	background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
 	background-attachment:fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 #visual .wrapper{
     height: 100%;
@@ -429,7 +431,7 @@ body{
 		background-image: url(../img/pad_main_bg.png);
 		background-repeat: no-repeat;
 		background-position: center;
-    	background-size: contain;
+    	background-size: cover;
     	background-attachment: fixed;
     }
     #visual .wrapper .text .tit_text img{
@@ -482,7 +484,7 @@ body{
         background-image: url(../img/m_main_bg.png);
 		background-repeat: no-repeat;
 		background-position: center;
-    	background-size: contain;
+    	background-size: cover;
     	background-attachment: fixed;
 	}
     #visual .wrapper .text{
