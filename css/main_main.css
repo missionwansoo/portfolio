@@ -429,7 +429,7 @@ body{
 		background-image: url(../img/pad_main_bg.png);
 		background-repeat: no-repeat;
 		background-position: center;
-    	background-size: cover;
+    	background-size: contain;
     	background-attachment: fixed;
     }
     #visual .wrapper .text .tit_text img{
@@ -482,7 +482,7 @@ body{
         background-image: url(../img/m_main_bg.png);
 		background-repeat: no-repeat;
 		background-position: center;
-    	background-size: cover;
+    	background-size: contain;
     	background-attachment: fixed;
 	}
     #visual .wrapper .text{
