@@ -1,0 +1,95 @@
+#visual .visual_img{
+    background-image: url(../img/project1/personal1_visual.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#container .container3 .bg {
+    background-color: #d9deec;
+}
+#container .container4{
+    margin-bottom: 70px;
+	margin-top: 100px;
+}
+#container .container4 .project1_img .left{
+    float: left;
+    width: 50%;
+	margin-top: 20px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+#container .container4 .project1_img .left .text1{
+	margin-top: 15px;
+}
+#container .container4 .project1_img .left .text2{
+	margin:12px 0;
+}
+#container .container4 .project1_img .left img{
+    width: 100%;
+}
+#container .container4 .project1_img .right{
+    float: right;
+    width: 50%;
+	margin-top: 20px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+#container .container4 .project1_img .right img{
+	width: 100%;
+}
+#container .container4 .project1_img .right .text1{
+	margin-top: 15px;
+}
+#container .container4 .project1_img .right .text2{
+    margin:12px 0;
+}
+#container .container5 .mockup{
+    width: 100%;
+    margin-top: 70px
+}
+#container .container5 .mockup img{
+    width: 100%;
+}
+/**********(1200)***********/
+@media screen and (max-width: 1200px){	
+}
+/*****(1024-780)*****/
+@media screen and (max-width: 1024px){
+}
+/*****(780)*****/
+@media screen and (max-width: 780px){
+	#container .container4 .project1_img .left{
+		float: none;
+		width: 100%;
+		padding: 0;
+		margin-top: 40px;
+	}
+	#container .container4 .project1_img .right{
+		float: none;
+		width: 100%;
+		padding: 0;
+		margin-top: 40px;
+	}
+}
+/***********(480)**********/
+@media screen and (max-width: 480px){
+}
+/*****(375)*****/
+@media screen and (max-width: 375px){  
+}
+/*****寃붾윮��(360)*****/
+@media screen and (max-width: 360px){ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

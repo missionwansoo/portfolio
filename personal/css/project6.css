@@ -1,0 +1,166 @@
+#visual .visual_img{
+    background-image: url(../img/project6/personal6_visual.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#container .container2 .sub_tit1{
+	text-align: center;
+	font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-family: 'Nexa';
+}
+#container .container2 .desc_list2 li{
+	float: left;
+	width: calc(100%/3);
+	text-align: left;
+	height: 250px;
+	position: relative;
+}
+#container .container2 .desc_list2 li img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 350px;
+}
+#container .container2 .desc_list2 li p{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	transform: translate(0, 100%);
+	padding: 0 10px;
+	box-sizing: border-box;
+	line-height: 1.5;
+    font-size: 1.7rem;
+}
+#container .container2 .desc_list2 li .color1{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 1.2rem;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nexa',sans-serif;
+    color: #fff;
+    font-weight: 300;
+	background: #162149;
+}
+#container .container2 .sub_tit2{
+	text-align: center;
+	font-size: 2.5rem;
+    margin-bottom: 40px;
+	padding-top: 120px;
+    font-weight: 700;
+    font-family: 'Nexa';
+	box-sizing: border-box;
+}
+#container .container2 .desc2{
+	line-height: 1.5;
+    font-size: 1.7rem;
+	margin-bottom: 15px;
+}
+#container .container3 .bg{
+	background: #eee;
+}
+#container .container3 .sub_tit{
+	text-align: center;
+	font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-family: 'Nexa';
+	box-sizing: border-box;
+}
+#container .container3 .desc_list3{
+	text-align: left;
+	width: 50%;
+	margin: 0 auto;
+}
+#container .container3 .desc_list3>li{
+	float: left;
+	width: 50%;
+}
+#container .container3 .desc_list3 li ul li{
+	line-height: 1.5;
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+#container .container3 .desc_list3 li ul li .dot{
+	font-size: 0.5rem;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/**********(1200)***********/
+@media screen and (max-width: 1200px){
+}
+/*****(1024-780)*****/
+@media screen and (max-width: 1024px){
+	#container .container3 .desc_list3{
+		width: 70%;
+	}
+}
+/*****(780)*****/
+@media screen and (max-width: 780px){
+	#container .container2 .desc_list2 li{
+		float: none;
+		width: 100%;
+		height: 300px;
+	}
+	#container .container2 .desc_list2 li img{
+		top: 0;
+		transform: translate(-50%, 0);
+	}
+	#container .container2 .desc_list2 li:last-child img{
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	#container .container2 .desc_list2 li p{
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%, 0);
+		width: 80%;
+	}
+	#container .container2 .sub_tit2{
+		padding-top: 60px;
+	}
+	#container .container3 .desc_list3{
+		width: 100%;
+	}
+}
+/***********(480)**********/
+@media screen and (max-width: 480px){
+	#container .container2 .desc_list2 li p{
+		width: 100%;
+	}
+	#container .container2 .desc_list2 li:first-child{
+		height: 350px;
+	}
+}
+/*****(375)*****/
+@media screen and (max-width: 375px){  
+}
+/*****寃붾윮��(360)*****/
+@media screen and (max-width: 360px){ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
