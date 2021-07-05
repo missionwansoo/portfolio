@@ -224,59 +224,95 @@ body{
     height: 19vw;
     text-indent: 9999px;
 }
-#container .container1 .content .portbox28 a .hidden .bg{
-    background-image:url(../img/thum/main_thum28.png);
-}
-#container .container1 .content .portbox10 a .hidden .bg{
-    background-image:url(../img/thum/main_thum10.png);
-}
 #container .container1 .content .portbox1 a .hidden .bg{
-    background-image:url(../img/thum/main_thum1.png);
+    background-image:url(../personal/img/thum/personal_thum1.png);
 }
 #container .container1 .content .portbox2 a .hidden .bg{
-    background-image:url(../img/thum/main_thum2.png);
+    background-image:url(../personal/img/thum/personal_thum2.png);
 }
 #container .container1 .content .portbox3 a .hidden .bg{
-    background-image:url(../img/thum/main_thum3.png);
+    background-image:url(../personal/img/thum/personal_thum3.png);
 }
 #container .container1 .content .portbox4 a .hidden .bg{
-    background-image:url(../img/thum/main_thum4.png);
+    background-image:url(../personal/img/thum/personal_thum4.png);
 }
 #container .container1 .content .portbox5 a .hidden .bg{
-    background-image:url(../img/thum/main_thum28.png);
+    background-image:url(../personal/img/thum/personal_thum5.png);
 }
 #container .container1 .content .portbox6 a .hidden .bg{
-    background-image:url(../img/thum/main_thum26.png);
-}
-#container .container1 .content .portbox26 a .hidden .bg{
-    background-image:url(../img/thum/main_thum1.png);
+    background-image:url(../personal/img/thum/personal_thum6.png);
 }
 #container .container1 .content .portbox7 a .hidden .bg{
-    background-image:url(../img/thum/main_thum2.png);
-}
-#container .container1 .content .portbox14 a .hidden .bg{
-    background-image:url(../img/thum/main_thum3.png);
-}
-#container .container1 .content .portbox9 a .hidden .bg{
-    background-image:url(../img/thum/main_thum4.png);
-}
-#container .container1 .content .portbox11 a .hidden .bg{
-    background-image:url(../img/thum/main_thum28.png);
-}
-#container .container1 .content .portbox13 a .hidden .bg{
-    background-image:url(../img/thum/main_thum26.png);
+    background-image:url(../personal/img/thum/personal_thum7.png);
 }
 #container .container1 .content .portbox8 a .hidden .bg{
-    background-image:url(../img/thum/main_thum1.png);
+    background-image:url(../personal/img/thum/personal_thum8.png);
+}
+#container .container1 .content .portbox9 a .hidden .bg{
+    background-image:url(../personal/img/thum/personal_thum9.png);
+}
+#container .container1 .content .portbox10 a .hidden .bg{
+    background-image:url(../personal/img/thum/personal_thum10.png);
+}
+#container .container1 .content .portbox11 a .hidden .bg{
+    background-image:url(../personal/img/thum/personal_thum11.png);
+}
+#container .container1 .content .portbox12 a .hidden .bg{
+    background-image:url(../personal/img/thum/personal_thum12.png);
+}
+#container .container1 .content .portbox13 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum13.png);
+}
+#container .container1 .content .portbox14 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum14.png);
 }
 #container .container1 .content .portbox15 a .hidden .bg{
-    background-image:url(../img/thum/main_thum2.png);
-}
-#container .container1 .content .portbox27 a .hidden .bg{
-    background-image:url(../img/thum/main_thum3.png);
+    background-image:url(../company/img/thum/company_thum15.png);
 }
 #container .container1 .content .portbox16 a .hidden .bg{
-    background-image:url(../img/thum/main_thum4.png);
+    background-image:url(../company/img/thum/company_thum16.png);
+}
+#container .container1 .content .portbox17 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum17.png);
+}
+#container .container1 .content .portbox18 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum18.png);
+}
+#container .container1 .content .portbox19 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum19.png);
+}
+#container .container1 .content .portbox20 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum20.png);
+}
+#container .container1 .content .portbox21 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum21.png);
+}
+#container .container1 .content .portbox22 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum22.png);
+}
+#container .container1 .content .portbox23 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum23.png);
+}
+#container .container1 .content .portbox24 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum24.png);
+}
+#container .container1 .content .portbox25 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum25.png);
+}
+#container .container1 .content .portbox26 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum26.png);
+}
+#container .container1 .content .portbox27 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum27.png);
+}
+#container .container1 .content .portbox28 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum28.png);
+}
+#container .container1 .content .portbox29 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum29.png);
+}
+#container .container1 .content .portbox30 a .hidden .bg{
+    background-image:url(../company/img/thum/company_thum30.png);
 }
 #container .container1 .content li a button{
 	position: absolute;
