@@ -151,7 +151,9 @@
     max-width: 1245px;
 	text-align: left;
 }
-#container .container2 .sub_tit{
+#container .container2 .sub_tit,
+#container .container2 .sub_tit1,
+#container .container2 .sub_tit2{
     font-size: 2.5rem;
     margin-bottom: 12px;
     font-weight: 700;
@@ -293,7 +295,9 @@
         margin-top: 60px;
 		padding: 0;
     }
-    #container .container2 .sub_tit{
+    #container .container2 .sub_tit,
+	#container .container2 .sub_tit1,
+	#container .container2 .sub_tit2{
         margin-bottom: 6px;
         font-size: 3rem;
 		float: none;
@@ -335,7 +339,9 @@
     #container .container2{
         margin-top: 40px;
     }
-    #container .container2 .sub_tit{
+    #container .container2 .sub_tit,
+	#container .container2 .sub_tit1,
+	#container .container2 .sub_tit2{
         margin-bottom: 6px;
         font-size: 2rem
     }
