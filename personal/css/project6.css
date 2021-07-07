@@ -3,6 +3,18 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
+#container h3.sub_tit{
+	font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-family: 'Nexa';
+	box-sizing: border-box;
+}
+#container p.desc{
+	line-height: 1.5;
+    font-size: 1.7rem;
+	margin-bottom: 15px;
+}
 #container .container2 .sub_tit1{
 	text-align: center;
 	font-size: 2.5rem;
@@ -98,13 +110,143 @@
     vertical-align: middle;
     margin-right: 10px;
 }
+#container .container3 .desc_list4{
+	width: 60%;
+	margin: 150px auto;
+}
+#container .container3 .desc_list4 li{
+	position: relative;
+	float: left;
+	width: 25%;
+}
+#container .container3 .desc_list4 li .bg{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 3px solid #162149;
+	box-sizing: border-box;
+	border-radius: 200px;
+	background: none;
+	width: 200px;
+	height: 200px;
+	z-index: 20
+}
+#container .container3 .desc1{
+	line-height: 1.5;
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+	width: 60%;
+	margin: 0 auto;
+	padding: 0 40px;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+
+#container .container4{
+	width: 83%;
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+#container .container4 .container4_img{
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+#container .container4 .container4_img img{
+	width: 100%;
+}
+#container .container5{
+	width: 100%;
+	padding: 0;
+	overflow: hidden;
+}
+#container .container5 img{
+	width: 100%;
+}
+
+#container .container6{
+	width: 83%;
+	margin-top: 100px;
+	padding: 0 40px;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+#container .container7{
+	width: 83%;
+	margin-top: 100px;
+	padding: 0 40px;
+	box-sizing: border-box;
+	text-align: left;
+}
+#container .container7 .desc_list{
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+#container .container7 .desc_list>li{
+	float: left;
+	width: 50%;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+#container .container7 .desc_list>li img{
+	width: 100%;
+}
+#container .container7 .desc_list>li ul>li{
+	float: left;
+	line-height: 1.5;
+    font-size: 1.7rem;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding: 10px 30px;
+	border: 1px solid #22408f;
+	border-radius: 50px;
+	box-sizing: border-box;
+	color: #22408f;
+}
+
+
 /**********(1200)***********/
 @media screen and (max-width: 1200px){
+	#container .container3 .desc_list4{
+		width: 75%;
+	}
+	#container .container3 .desc_list4 li .bg{
+		width: 180px;
+		height: 180px;
+		border: 2px solid #162149;
+	}
+	#container .container3 .desc1{
+		width: 75%;
+	}
+	#container .container4{
+		width: 100%;
+	}
 }
 /*****(1024-780)*****/
 @media screen and (max-width: 1024px){
 	#container .container3 .desc_list3{
 		width: 70%;
+	}
+	#container .container3 .desc_list4{
+		width: 100%;
+	}
+	#container .container3 .desc1{
+		width: 100%;
+	}
+	#container .container6{
+		width: 92%;
+	}
+	#container .container7{
+		width: 92%;
+	}
+	#container .container7 .desc_list>li ul>li{
+		font-size: 1.5rem;
+		padding: 8px 20px;
 	}
 }
 /*****(780)*****/
@@ -131,8 +273,45 @@
 	#container .container2 .sub_tit2{
 		padding-top: 60px;
 	}
+	#container .container3 .desc1{
+		padding: 0;
+	}
 	#container .container3 .desc_list3{
 		width: 100%;
+	}
+	#container .container3 .desc_list3 li ul li{
+		font-size: 1.3rem;
+	}
+	#container .container3 .desc_list4 li .bg{
+		width: 160px;
+		height: 160px;
+	}
+	#container .container4{
+		width: 92%;
+		padding: 0 20px;
+	}
+	#container .container4 .container4_img{
+		float: none;
+		width: 100%;
+		padding: 5px 0;
+	}
+	#container .container6{
+		padding: 0;
+	}
+	#container .container7{
+		padding: 0;
+	}
+	#container .container7 .desc{
+		margin-bottom: 50px;
+	}
+	#container .container7 .desc_list{
+		margin: 0;
+	}
+	#container .container7 .desc_list>li{
+		float: none;
+		width: 100%;
+		padding: 0 20px;
+		margin-bottom: 40px;
 	}
 }
 /***********(480)**********/
@@ -142,6 +321,17 @@
 	}
 	#container .container2 .desc_list2 li:first-child{
 		height: 350px;
+	}
+	#container .container3 .desc_list4 li .bg{
+		width: 110px;
+		height: 110px;
+		border: 1px solid #162149;
+	}
+	#container .container4{
+		padding: 0;
+	}
+	#container .container7 .desc_list>li{
+		padding: 0;
 	}
 }
 /*****(375)*****/
