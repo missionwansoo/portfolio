@@ -127,7 +127,6 @@
 	margin-top: 50px;
 }
 #container .container1 .head_text_work ul li{
-    height: 40px;
 	line-height: 40px;
 }
 #container .container1 .head_text_work ul li h4{
@@ -151,7 +150,9 @@
     max-width: 1245px;
 	text-align: left;
 }
-#container .container2 .sub_tit{
+#container .container2 .sub_tit,
+#container .container2 .sub_tit1,
+#container .container2 .sub_tit2{
     font-size: 2.5rem;
     margin-bottom: 12px;
     font-weight: 700;
@@ -211,6 +212,29 @@
     position: absolute;
     z-index: -1
 }
+#container .con_under_btn{
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 80px;
+	text-align: center;
+}
+#container .con_under_btn a{
+	display: block;
+	padding: 20px 0;
+    border: 1px solid #22408f;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #22408f;
+    background: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#container .con_under_btn a:hover{
+	background: #22408f;
+	color: #fff;
+}
 /**********(1200)***********/
 @media screen and (max-width: 1200px){
     #visual .visual_img{
@@ -225,6 +249,9 @@
     #container .container2{
         width: 92%;
     }
+	#container .con_under_btn{
+		width: 40%;
+	}
 }
 /*****(1024-780)*****/
 @media screen and (max-width: 1024px){
@@ -267,7 +294,9 @@
         margin-top: 60px;
 		padding: 0;
     }
-    #container .container2 .sub_tit{
+    #container .container2 .sub_tit,
+	#container .container2 .sub_tit1,
+	#container .container2 .sub_tit2{
         margin-bottom: 6px;
         font-size: 3rem;
 		float: none;
@@ -289,6 +318,10 @@
     #container .container3 .sub{
         margin-top: 50px
     }
+	#container .con_under_btn{
+		width: 60%;
+		margin-top: 60px;
+	}
 }
 /***********(480)**********/
 @media screen and (max-width: 480px){
@@ -305,7 +338,9 @@
     #container .container2{
         margin-top: 40px;
     }
-    #container .container2 .sub_tit{
+    #container .container2 .sub_tit,
+	#container .container2 .sub_tit1,
+	#container .container2 .sub_tit2{
         margin-bottom: 6px;
         font-size: 2rem
     }
@@ -320,6 +355,10 @@
     #container .container3 .sub .bg{
         height: 200px;
     }
+	#container .con_under_btn{
+		width: 80%;
+		margin-top: 50px;
+	}	
 }
 /*****(375)*****/
 @media screen and (max-width: 375px){  
