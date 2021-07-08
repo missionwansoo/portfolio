@@ -1,5 +1,5 @@
 #visual .visual_img{
-    background-image: url(../img/project8/personal8_visual.png);
+    background-image: url(../img/project17/personal17_visual.png);
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -17,13 +17,90 @@
     font-size: 1.7rem;
 	margin-bottom: 15px;
 }
+#container .container1 .head_text_work ul li .desc a{
+	text-decoration: underline;
+	-webkit-animation-name:movingPara;
+	-webkit-animation-duration:4s;
+	animation-name:movingPara;
+	animation-duration:4s;
+	-webkit-animation-iteration-count:infinite;
+	animation-iteration-count:infinite;
+}
+@-webkit-keyframes movingPara{
+	0%{color:orange}
+	20%{color:#ff0}
+	40%{color:red}
+	80%{color:#00f}
+	100%{color:orange}
+}
+@keyframes movingPara{
+	0%{color:orange}
+	20%{color:#ff0}
+	40%{color:red}
+	80%{color:#00f}
+	100%{color:orange}
+}
 
 #container .container2 .sub_tit1{
 	width: 100%;
 	float: none;
 }
+#container .container2 ul{
+	margin-top: 30px;
+}
+#container .container2 ul li p{
+	float: left;
+	line-height: 2;
+	margin-bottom: 10px;
+}
+#container .container2 ul li p.color{
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	border-radius: 40px;
+}
+
+#container .container2 ul li p.bgcolor_tit{
+	font-size: 2rem;
+	font-weight: 700;
+    font-family: 'Nexa';
+}
+#container .container2 ul li p.bgcolor{
+	width: 100%;
+	height: 80px;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: 'Nexa';
+}
+#container .container2 ul li p.bgcolor1{
+	width: 50%;
+	height: 80px;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: 'Nexa';
+}
+#container .container2 ul li p.bgcolor2{
+	width: 50%;
+	height: 80px;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: 'Nexa';
+}
+#container .container2 p.color1{
+	background: #2e3965;
+}
+#container .container2 p.color2{
+	background: #84c441;
+}
+#container .container2 p.color3{
+	background: #f47e31;
+}
+
 #container .container2 .desc_img{
-	width: 60%;
+	width: 83%;
 	margin: 0 auto;
 	margin-top: 70px;
 }
@@ -35,61 +112,63 @@
     padding: 0 40px;
     width: 83%;
     max-width: 1245px;
-    text-align: left;
+    text-align: center;
 	box-sizing: border-box;
 }
-#container .container3 .desc_list{
+#container .container3 ul li{
 	float: left;
 	width: 50%;
-	padding: 0 10px;
-	box-sizing: border-box;
 }
-#container .container3 .desc_list li{
-	padding: 40px;
-	border: 1px solid #22408f;
-	border-radius: 50px;
-	box-sizing: border-box;
-	margin-bottom: 20PX;
+#container .container3 ul li p{
+	margin-bottom: 40px;
 }
-#container .container3 .desc_list li.bg_blue{
-	background: #22408f;
-	color: #fff;
+#container .container3 ul li p.con3_tit{
+	font-size: 2rem;
+	font-weight: 700;
+    font-family: 'Nexa';
 }
-#container .container3 .desc_list li .list_tit{
-	line-height: 1.5;
-    font-size: 3rem;
-    margin-bottom: 15px;
-}
-#container .container3 .desc_list li .list_t1{
-	line-height: 1.5;
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-}
-#container .container3 .desc_list li .list_t2{
-	line-height: 1.5;
-    font-size: 1.7rem;
-    margin-bottom: 30px;
-}
-#container .container3 .desc_list li .list_but{
-	line-height: 1.5;
-    font-size: 1.7rem;
-	padding: 5px 30px;
-	border: 1px solid #22408f;
-	background: #fff;
-	border-radius: 50px;
-	color: #22408f;
-	box-sizing: border-box;
-}
-#container .container3 .desc_list li .bg_blue{
-	background: #22408f;
-	color: #fff;
+#container .container3 ul li p img{
+	width: 100%;
 }
 
-
+#container .container4{
+	margin-top: 80px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    width: 83%;
+    max-width: 1245px;
+    text-align: left;
+}
+#container .container5{
+	width: 100%;
+	overflow: hidden;
+	background: #e4e3e3;
+}
+#container .container5 img{
+	width: 100%;
+}
+#container .container6{
+    padding: 0 40px;
+    box-sizing: border-box;
+    width: 83%;
+	margin: 0 auto;
+	margin-top: 80px;
+    max-width: 1245px;
+    text-align: left;
+}
+#container .container6 img{
+	width: 100%;
+}
 
 /**********(1200)***********/
 @media screen and (max-width: 1200px){
 	#container .container3{
+		width: 92%;
+	}
+	#container .container4{
+		width: 92%;
+	}
+	#container .container6{
 		width: 92%;
 	}
 }
@@ -107,35 +186,40 @@
 	#container .container3 .sub_tit{
     	font-size: 3rem;
 	}
-	#container .container3 .desc_list{
+	#container .container3 ul li{
 		float: none;
 		width: 100%;
-		margin-top: 20px;
+		text-align: left;
+	}
+	#container .container4{
+		margin-top: 60px;
+    	padding: 0;
+	}
+	#container .container6{
+		margin-top: 60px;
+    	padding: 0;
 	}
 }
 /***********(480)**********/
 @media screen and (max-width: 480px){
+	#container .container2 ul li p.bgcolor_tit{
+		font-size: 1.5rem;
+	}
+	#container .container3{
+		margin-top: 40px;
+	}
 	#container .container3 .sub_tit{
 		margin-bottom: 6px;
     	font-size: 2rem;
 	}
-	#container .container3 .desc_list{
-		padding: 0;
+	#container .container3 ul li p.con3_tit{
+		font-size: 1.5rem;
 	}
-	#container .container3 .desc_list li{
-		padding: 30px;
+	#container .container4{
+		margin-top: 40px;
 	}
-	#container .container3 .desc_list li .list_tit{
-		font-size: 2.5rem;
-	}
-	#container .container3 .desc_list li .list_t1{
-		font-size: 1.4rem;
-	}
-	#container .container3 .desc_list li .list_t2{
-		font-size: 1.6rem;
-	}
-	#container .container3 .desc_list li .list_but{
-		font-size: 1.6rem;
+	#container .container6{
+		margin-top: 40px;
 	}
 }
 /*****(375)*****/
