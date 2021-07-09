@@ -26,15 +26,18 @@
 #container .container2 .desc img{
 	width: 100%;
 }
-#container .container2 ul{
+#container .container2 ul,
+#container .container4 ul{
 	margin-top: 30px;
 }
-#container .container2 ul li p{
+#container .container2 ul li p,
+#container .container4 ul li p{
 	float: left;
 	line-height: 2;
 	margin-bottom: 10px;
 }
-#container .container2 ul li p.color{
+#container .container2 ul li p.color,
+#container .container4 ul li p.color{
 	width: 5px;
 	height: 5px;
 	margin-right: 10px;
@@ -43,35 +46,18 @@
 	background: #222;
 }
 
-#container .container2 .desc_img{
-	width: 83%;
+#container .container3{
+	width: 100%;
+    text-align: center;
+	box-sizing: border-box;
+	background: #d0d0d0;
+}
+#container .container3 .desc_img{
+	width: 100%;
 	margin: 0 auto;
 	margin-top: 70px;
 }
-#container .container2 .desc_img img{
-	width: 100%;
-}
-
-#container .container3{
-    padding: 0 40px;
-    width: 83%;
-    max-width: 1245px;
-    text-align: center;
-	box-sizing: border-box;
-}
-#container .container3 ul li{
-	float: left;
-	width: 50%;
-}
-#container .container3 ul li p{
-	margin-bottom: 40px;
-}
-#container .container3 ul li p.con3_tit{
-	font-size: 2rem;
-	font-weight: 700;
-    font-family: 'Nexa';
-}
-#container .container3 ul li p img{
+#container .container3 .desc_img img{
 	width: 100%;
 }
 
@@ -83,16 +69,13 @@
     max-width: 1245px;
     text-align: left;
 }
+#container .container4 .desc{
+	line-height: 1.5;
+    font-size: 1.7rem;
+	margin-bottom: 15px;
+}
 #container .container5{
-	width: 100%;
-	overflow: hidden;
-	background: #e4e3e3;
-}
-#container .container5 img{
-	width: 100%;
-}
-#container .container6{
-    padding: 0 40px;
+	padding: 0 40px;
     box-sizing: border-box;
     width: 83%;
 	margin: 0 auto;
@@ -100,19 +83,25 @@
     max-width: 1245px;
     text-align: left;
 }
-#container .container6 img{
+#container .container5 img{
 	width: 100%;
+}
+#container .container5 ul li{
+	float: left;
+}
+#container .container5 ul li:nth-child(1){
+	width: 38.9%;
+}
+#container .container5 ul li:nth-child(2){
+	width: 61.1%;
 }
 
 /**********(1200)***********/
 @media screen and (max-width: 1200px){
-	#container .container3{
-		width: 92%;
-	}
 	#container .container4{
 		width: 92%;
 	}
-	#container .container6{
+	#container .container5{
 		width: 92%;
 	}
 }
@@ -124,24 +113,31 @@
 }
 /*****(780)*****/
 @media screen and (max-width: 780px){
-	#container .container3{
-		padding: 0;
-	}
-	#container .container3 .sub_tit{
-    	font-size: 3rem;
-	}
-	#container .container3 ul li{
-		float: none;
-		width: 100%;
-		text-align: left;
-	}
 	#container .container4{
 		margin-top: 60px;
     	padding: 0;
 	}
-	#container .container6{
+	#container .container4 .desc{
+		flex: none;
+		width: 100%;
+		margin-top: 20px;
+	}
+	#container .container5{
 		margin-top: 60px;
     	padding: 0;
+	}
+	#container .container5{
+		margin-top: 60px;
+    	padding: 0;
+	}
+	#container .container5 ul li{
+		float: none;
+	}
+	#container .container5 ul li:nth-child(1){
+		width: 100%;
+	}
+	#container .container5 ul li:nth-child(2){
+		width: 100%;
 	}
 }
 /***********(480)**********/
@@ -152,18 +148,12 @@
 	#container .container3{
 		margin-top: 40px;
 	}
-	#container .container3 .sub_tit{
-		margin-bottom: 6px;
-    	font-size: 2rem;
-	}
-	#container .container3 ul li p.con3_tit{
-		font-size: 1.5rem;
-	}
 	#container .container4{
 		margin-top: 40px;
 	}
-	#container .container6{
-		margin-top: 40px;
+	#container .container4 .desc{
+		font-size: 1.6rem;
+    	line-height: 1.6;
 	}
 }
 /*****(375)*****/
