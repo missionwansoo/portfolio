@@ -1,4 +1,9 @@
+$(window).load(function() { 
+	$('#loading').hide(); 
+});
+
 $(document).ready(function(){
+	
     var $gnbMenu = $('#header').find('.gnb_menu'),
         $headerMenu = $('#header').find('.header_menu'),
         $gnb = $gnbMenu.find('.gnb')
