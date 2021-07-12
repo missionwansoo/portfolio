@@ -11,703 +11,375 @@ body{
 	position: relative;
 	margin-top: 80px;
 }
-#container .text{
-    font-size: 1.7rem
-}
-#container .spacing{
-    width: 270px
-}
-#container .container1{
-    position: relative;
-	width: 83%;
-    max-width: 1245px;
-	padding: 0 40px;
-	box-sizing: border-box;
-}
-#container .container1 .title{
-    text-align: left;
-    font-weight: 700;
-    font-size: 6rem;
-    letter-spacing: -1px;
-	padding-top: 150px;
-	box-sizing: border-box;
-}
-#container .container1 .title .tit1{
-	animation-delay: 0.8s;
-    margin-bottom: 20px
-}
-#container .container1 .title .tit2{
-    animation-delay: 1.4s;
-    line-height: 1.3
-}
-#container .con_headbg{
-	position: absolute;
-    width: 100%;
-    height: 600px;
-    background: url(../img/about_linebg.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-    -moz-animation-name: titline;
-    -webkit-animation-name: titline;
-    -ms-animation-name: titline;
-    -o-animation-name: titline;
-    animation-name: titline;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-duration: 1.5s;
-    -ms-animation-duration: 1.5s;
-    -o-animation-duration: 1.5s;
-    animation-duration: 1.5s;
-    -moz-animation-delay: 0s;
-    -webkit-animation-delay: 0s;
-    -ms-animation-delay: 0s;
-    -o-animation-delay: 0s;
-    animation-delay: 0s;
-    -moz-animation-fill-mode:both;
-    -webkit-animation-fill-mode:both;
-    -ms-animation-fill-mode:both;
-    -o-animation-fill-mode:both;
-    animation-fill-mode:both;
-}
-@-moz-keyframes titline{
-    from{
-        height: 0px;
-    }
-    to{
-        height: 400px;
-    }
-} 
-@-webkit-keyframes titline{
-    from{
-        height: 0px;
-    }
-    to{
-        height: 400px;
-    }
-} 
-@-ms-keyframes titline{
-    from{
-        height: 0px;
-    }
-    to{
-        height: 400px;
-    }
-} 
-@-o-keyframes titline{
-    from{
-        height: 0px;
-    }
-    to{
-        height: 400px;
-    }
-} 
-@keyframes titline{
-    from{
-        height: 0px;
-    }
-    to{
-        height: 400px;
-    }
-} 
-#container .container1 .title_desc{
-    text-align: left;
-    font-size: 2rem;
-    line-height: 1.4;
-    animation-delay: 1.8s;
-    animation-fill-mode:both;
-	margin-top: 50px;
-}
-#container .container1 .title_desc .title_desc2{
-    font-weight: 700
-}
+#container .container1,
 #container .container2,
+#container .container3,
+#container .container3 .con3_tit,
 #container .container4,
-#container .container5{
+#container .container5,
+#container .container6{
+	position: relative;
     width: 83%;
     max-width: 1245px;
     padding: 0 40px;
+	padding-top: 80px;
     box-sizing: border-box;
-    margin-top: 120px;
+	text-align: left;
+	margin: 0 auto;
 }
-#container .container2 .con2_img{
+#container .title{
+    text-align: left;
+    font-weight: 700;
+	box-sizing: border-box;
+	font-family: 'Nexa',sans-serif;
+	font-size: 4rem;
+}
+#container .desc{
+    line-height: 1.5;
+	margin-top: 50px;
+}
+#container .container1{
+	height: 500px;
+	overflow: hidden;
+	width: 100%;
+    max-width: 100%;
+	padding: 0;
+}
+#container .container1 .con1_img{
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	transform: translate(-50%, -50%);
+	z-index: -1
+}
+
+#container .container1 .con1_img .bg1{
 	position: relative;
-	float: left;
-	width: 40%;
-	height: 400px;
-    animation-delay: 1.8s;
-    animation-fill-mode: both;
 }
-#container .container2 .con2_img img{
+#container .container1 .con1_img .bg1 img{
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 100%
+	width: 350px;
+    -webkit-animation: selfbg1 5s ease infinite;
+	animation: selfbg1 5s ease infinite;
 }
-#container .container2 .intro{
+#container .container1 .con1_img .bg2{
+	position: relative;
+}
+#container .container1 .con1_img .bg2 img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-60%, -30%);
+	width: 500px;
+	-webkit-animation: selfbg2 4.7s ease infinite;
+	animation: selfbg2 4.7s ease infinite;
+}
+#container .container1 .con1_img .bg3{
+	position: relative;
+}
+#container .container1 .con1_img .bg3 img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-65%, -25%);
+	width: 600px;
+	-webkit-animation: selfbg3 4.5s ease infinite;
+	animation: selfbg3 4.5s ease infinite;
+}
+#container .container1 .con1_img .bg4{
+	position: relative;
+}
+#container .container1 .con1_img .bg4 img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-70%, -20%);
+	width: 700px;
+	-webkit-animation: selfbg4 4.3s ease infinite;
+	animation: selfbg4 4.3s ease infinite;
+}
+
+@-webkit-keyframes selfbg1{
+    0% { -webkit-transform: translate(-50%, -50%);}
+	50% { -webkit-transform: translate(-50%, -80%);}
+	100% { -webkit-transform: translate(-50%, -50%);}
+} 
+@keyframes selfbg1{
+    0% { transform: translate(-50%, -50%);}
+	50% { transform: translate(-50%, -80%);}
+    100% { transform: translate(-50%, -50%);}
+}
+
+@-webkit-keyframes selfbg2{
+    0% { -webkit-transform: translate(-60%, -30%);}
+	50% { -webkit-transform: translate(-60%, -70%);}
+	100% { -webkit-transform: translate(-60%, -30%);}
+} 
+@keyframes selfbg2{
+    0% { transform: translate(-60%, -30%);}
+	50% { transform: translate(-60%, -70%);}
+    100% { transform: translate(-60%, -30%);}
+}
+
+@-webkit-keyframes selfbg3{
+    0% { -webkit-transform: translate(-65%, -25%);}
+	50% { -webkit-transform: translate(-65%, -60%);}
+	100% { -webkit-transform: translate(-65%, -25%);}
+} 
+@keyframes selfbg3{
+    0% { transform: translate(-65%, -25%);}
+	50% { transform: translate(-65%, -60%);}
+    100% { transform: translate(-65%, -25%);}
+}
+
+@-webkit-keyframes selfbg4{
+    0% { -webkit-transform: translate(-70%, -20%);}
+	50% { -webkit-transform: translate(-70%, -50%);}
+	100% { -webkit-transform: translate(-70%, -20%);}
+} 
+@keyframes selfbg4{
+    0% { transform: translate(-70%, -20%);}
+	50% { transform: translate(-70%, -50%);}
+    100% { transform: translate(-70%, -20%);}
+}
+#container .container1 .con1_tit{
+	width: 83%;
+    max-width: 1245px;
+    padding: 0 40px;
+    box-sizing: border-box;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+#container .container1 .con1_tit .tit1{
+	margin-bottom: 20px;
+	font-size: 6rem;
+	font-weight: 700;
+	letter-spacing: -1px;
+	animation-delay: 0.8s;
+}
+#container .container1 .con1_tit .tit2{
+	margin-bottom: 20px;
+	font-size: 6rem;
+	font-weight: 700;
+	letter-spacing: -1px;
+	line-height: 1.3;
+	animation-delay: 1.2s;
+}
+#container .container1 .con1_tit ul{
+	margin-top: 30px;
+	position: relative;
+	animation-delay: 1.5s;
+}
+#container .container1 .con1_tit ul li{
+	margin-bottom: 20px;
+}
+#container .container1 .con1_tit ul .nbti{
 	float: left;
-    text-align: left;
-	width: 60%;
-}
-#container .container2 .intro li{
-	line-height: 1.5;
-    font-size: 1.7rem;
-    margin-bottom: 15px;
-}
-#container .container2 .intro li .intro_t{
-	width: 30%;
-	text-align: right;
-	padding-right: 10px;
-	box-sizing: border-box;
-	float: left;
-    animation-delay: 1.8s;
-    animation-fill-mode: both;
-}
-#container .container2 .intro li .intro_c{
-	width: 70%;
-	float: right;
-    animation-delay: 1.8s;
-    animation-fill-mode: both;
-}
-#container .container2 .intro li .intro_p{
-	float: left;
-	margin-right: 20px;
-	margin-left: 5px;
-    animation-delay: 1.8s;
-    animation-fill-mode: both;
-}
-#container .container2 .intro li .pick{
-	border: 1px solid #222;
-	width: 28px;
-	height: 28px;
-	padding-left: 5px;
-	border-radius: 28px;
-	box-sizing: border-box;
-}
-#container .container2 .con2_t{
-	float: left;
-	width: 100%;
-	text-align: left;
-}
-#container .container2 .con2_t .title{
-	font-size: 4rem;
-    font-weight: 700;
-    font-family: 'Nexa',sans-serif;
-	margin-top: 80px;
-	margin-bottom: 25px;
-}
-#container .container2 .con2_t .con2_desc{
-    line-height: 1.5;
-}
-#container .container2 .con2_t .btn_gnb{
-	margin-top: 50px;
-    font-size: 1.7rem;
+	font-size: 3.5rem;
 	font-weight: 700;
 }
-#container .container2 .con2_t .btn_gnb div{
-	position: relative;
-	float: left;
-	width: 50%;
-	height: 200px;
-	text-align: center;
-}
-#container .container2 .con2_t .btn_gnb div .line{
-	position: relative;
-}
-#container .container2 .con2_t .btn_gnb a{
+#container .container1 .con1_tit ul .nbti_line{
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border: 2px solid #22408f;
-	border-radius: 200px;
-	color: #22408f;
-	background: #fff;
-	width: 200px;
-	height: 200px;
-	padding-top: 85px;
-	box-sizing: border-box;
-	transition: 0.5s;
-	
-}
-#container .container2 .con2_t .btn_gnb a:hover{
+	top: 10px;
+	left: -10px;
+	width: 90px;
+	height: 30px;
 	background: #22408f;
-	color: #fff;
-/*
-	-moz-animation-name: btn1;
-    -webkit-animation-name: btn1;
-    -ms-animation-name: btn1;
-    -o-animation-name: btn1;
-    animation-name: btn1;
-    -moz-animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    -ms-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
-    -moz-animation-fill-mode: both;
-    -webkit-animation-fill-mode: both;
-    -ms-animation-fill-mode: both;
-    -o-animation-fill-mode: both;
-    animation-fill-mode: both;
-*/
+	opacity: 0.5;
+	z-index: -1;
 }
-@-moz-keyframes btn1{
-    from{
-        left: 0;
-		opacity: 0;
-    }
-    to{
-        left: 50%;
-		opacity: 1;
-    }
-} 
-@-webkit-keyframes btn1{
-    from{
-        left: 0;
-		opacity: 0;
-    }
-    to{
-        left: 50%;
-		opacity: 1;
-    }
-} 
-@-ms-keyframes btn1{
-    from{
-        left: 0;
-		opacity: 0;
-    }
-    to{
-        left: 50%;
-		opacity: 1;
-    }
-} 
-@-o-keyframes btn1{
-    from{
-        left: 0;
-		opacity: 0;
-    }
-    to{
-        left: 50%;
-		opacity: 1;
-    }
-} 
-@keyframes btn1{
-    from{
-        left: -50%;
-		opacity: 0;
-    }
-    to{
-        left: 50%;
-		opacity: 1;
-    }
-}
-
-#container .container2 .con2_t .btn_gnb .btn_pdf a{}
-#container .container2 .con2_t .btn_gnb .btn_zip a{}
-
-#container .container2 .con2_t ul li{
+#container .container1 .con1_tit ul .nbti_desc{
 	float: left;
-	font-size: 2rem;
-	line-height: 1.3;
-	margin-right: 20px;
-	padding: 10px 30px;
-	border: 1px solid #22408f;
-	color: #fff;
-	background: #22408f;
-	border-radius: 50px;
-	margin-top: 10px;
-	transition: 0.5s;
-	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 20px;
 }
-#container .container2 .con2_t ul li:hover{
-	background: #fff;
-	color: #22408f;
+#container .container1 .con1_tit .con1_desc{
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	animation-delay: 1.8s;
+}
+#container .container1 .con1_tit .con1_desc .desc{
+	margin-top: 10px;
+	line-height: 1.8;
+}
+#container .container1 .con1_tit .con1_desc .desc img{
+	width: 30px;
+	margin-right: 15px;
+}
+
+#container .container2{
+	padding-top: 120px;
+}
+#container .container2 .chart ul{
+	margin-top: 50px;
+}
+#container .container2 .chart ul li p{
+	float: left;
+	margin-bottom: 20px;
+}
+#container .container2 .chart ul li p.chart_tit{
+	width: 15%;
+	letter-spacing: 2px;
+	padding-top: 8px;
+	box-sizing: border-box;
+	position: relative;
+}
+#container .container2 .chart ul li p.chart_tit .dot{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #22408f;
+	border-radius: 50%;
+	top: 5px;
+	left: -7px;
+}
+#container .container2 .chart ul li:nth-child(2) p.chart_tit .dot{
+	left: 0;
+}
+#container .container2 .chart ul li p.chart_t{
+	width: 15%;
+	padding-top: 8px;
+	box-sizing: border-box;
+}
+#container .container2 .chart ul li p.chart_line{
+	width: 70%;
+	height: 30px;
+	box-sizing: border-box;
+	border: 2px solid #22408f;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+}
+#container .container2 .chart ul li p.chart_line .line{
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background: #22408f;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	z-index: -1;
+	opacity: 0;
+}
+#container .container2 .chart ul li p.chart_line .line1{
+	width: 68%;
+}
+#container .container2 .chart ul li p.chart_line .line2{
+	width: 56%;
+}
+#container .container2 .chart ul li p.chart_line .line3{
+	width: 63%;
+}
+#container .container2 .chart ul li p.chart_line .line4{
+	width: 75%;
 }
 
 #container .container3{
     margin-top: 70px;
-    text-align: center;
     background-color: #22408f;
     color: #fff;
-    font-family: 'Nexa',sans-serif;
     padding: 70px 0;
-    box-sizing: border-box;
-    position: relative;
-    z-index: -2;
     width: 100%;
+	max-width: 100%;
 }
-#container .container3 .title,
-#container .container3 .skill_desc{
-	width: 83%;
-    max-width: 1245px;
-    padding: 0 40px;
-	box-sizing: border-box;
-	margin: 0 auto;
+#container .container3 .con3_tit{
+	padding-top: 0;
 }
-#container .container3 .title,
-#container .container4 .title,
-#container .container5 .title{
-    font-size: 4rem;
-    font-weight: 700;
-    font-family: 'Nexa',sans-serif;
-    text-align: left;
-}
-#container .container3 .title,
-#container .container4 .title{
-    margin-bottom: 25px;
-}
-#container .container3 .skill_desc{
-    margin-bottom: 50px;
-    line-height: 1.5;
-    font-family: 'SpoqaHanSans',sans-serif;
-    text-align: left;
-}
-#container .container3 .skill_list {
-	width: 83%;
-    max-width: 1245px;
-    padding: 0 40px;
-	box-sizing: border-box;
-    margin: 0 auto;
-}
-#container .container3 .skill_list li{
-	margin-bottom: 40px;
-}
-#container .container3 .skill_list li .skill_tit{
+#container .container3 .con3_tit .desc{
 	float: left;
-	font-size: 1.8rem;
-	line-height: 1.2;
-    font-weight: 700;
-	text-align: left;
-}
-#container .container3 .skill_list li h5.skill_tit{
-	width: 15%;
-}
-#container .container3 .skill_list li h4.skill_tit{
-	width: 10%;
-	padding-left: 20px;
-	box-sizing: border-box;
-}
-#container .container3 .skill_list li .bar{
-	width: 75%;
-    height: 20px;
-	border: 1px solid #fff;
-    border-radius: 100px;
-	box-sizing: border-box;
-	float: left;
-    position: relative;
-}
-#container .container3 .skill_list li .bar .line{
-    position: absolute;
-	height: 20px;
-    border-radius: 100px;
-    opacity: 0;
-	z-index: -5;
-	top: 5px;
-	left: 5px;
-	background-color: #fff;
-}
-#container .container3 .skill_list .ps .bar .line{
-    background-color: #fff220;   
-    width: 95%;
-}
-#container .container3 .skill_list .ai .bar .line{
-    background-color: #ff6c00;   
-    width: 95%;
-}
-#container .container3 .skill_list .ht .bar .line{
-    background-color: #ff00fe;   
-    width: 80%;
-}
-#container .container3 .skill_list .ja .bar .line{
-    background-color: #fe0000;   
-    width: 50%;
-}
-#container .container3 .skill_list .af .bar .line{
-    background-color: #00ff00;   
-    width: 30%;
-}
-#container .container3 .skill_list .pm .bar .line{
-    background-color: #0000fe;   
-    width: 30%;
-}
-
-#container .container4 .con4_list{
-	margin-top: 40px;
-	margin-bottom: 60px;
-}
-#container .container4 ul li{
-	float: left;
-	width: 25%;
-}
-#container .container4 ul li .con4_img{
-	background: #22408f;
 	width: 50%;
-	margin: 0 auto;
-	border-radius: 100px;
+	padding: 0;
+	padding-right: 10px;
+	padding-top: 30px;
 }
-#container .container4 ul li .con4_img img{
+#container .container3 .con3_tit .desc button{
+	border: 2px solid #fff;
+	background: none;
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 2;
+	padding: 5px 30px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	margin-top: 30px;
+	display: block;
+}
+#container .container3 .con3_tit .desc button:hover{
+	background: #fff;
+	color: #22408f;
+}
+#container .container3 .con3_tit .desc button a{
+	display: block;
+}
+#container .container3 .con3_tit .con3_img{
+	float: right;
+	width: 35%;
+}
+#container .container3 .con3_tit .con3_img img{
 	width: 100%;
 }
-#container .container4 ul li .con4_tit{
-	font-size: 2rem;
-    font-weight: 700;
-    line-height: 1.4;
-	margin: 10px 0;
-}
-#container .container4 ul li .con4_t{
-    line-height: 1.4;
-	margin-bottom: 30px;
-}
-#container .container4 ul li .con4_link{
-	font-size: 1.8rem;
-	font-weight: 700;
-	display: block;
-	width: 50%;
+#container .container3 .title,
+#container .container3 .desc{
+	width: 83%;
+    max-width: 1245px;
+    padding: 0 40px;
+	box-sizing: border-box;
 	margin: 0 auto;
 }
-#container .container4 ul li .con4_link a{
-	display: block;
-	padding: 5px 0;
-	color: #22408f;
-	border: 1px solid #22408f;
-    border-radius: 10px;
-    box-sizing: border-box;
-	transition: 0.5s;
-}
-#container .container4 ul li .con4_link a:hover{
-	background: #22408f;
-	color: #fff;
-}
-
-#container .container5 .title{
-    margin-bottom: 50px;
-}
-#container .container5 .timeline{
-    position: relative;
-	overflow: hidden;
-	padding-bottom: 50px;
+#container .container4 .con4_chapter{
+	font-size: 2.5rem;
+    line-height: 1.5;
+	font-family: 'Nexa',sans-serif;
+	font-weight: 700;
+	padding-top: 20px;
 	box-sizing: border-box;
 }
-#container .container5 .timeline .timeline_line{
-    position: relative;
-    width: 3px;
-    height: 2050px;
-    background: #222;
-    border-radius: 100px;
-	margin-left: 20px;
-    box-sizing: border-box;
-	opacity: 0;
+#container .container4 .con4_tit{
+	line-height: 1.5;
+    font-size: 1.7rem;
+	margin-top: 10px;
 }
-#container .container5 .timeline .time{
-    position: absolute;
-    top:50px;
-	left: 15px;
-    width: 100%;
-	text-align: left;
+#container .container4 .con4_tit .tit{
+	font-weight: 700;
+	margin-right: 20px;
 }
-#container .container5 .timeline .time li{
-    margin-bottom: 50px;
+#container .container4 .con4_tit .tit_sub{
+    font-size: 1.3rem;
+	color: #22408f;
 }
-#container .container5 .timeline .time li:last-child{
-    margin-bottom: 0px
-}
-#container .container5 .timeline .time li .time_dot{
-    width: 13px;
-    height: 13px;
-    background-color: #fe0000;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: top;
-}
-#container .container5 .timeline .time li .time_text{
-    display: inline-block;
-    vertical-align: top;
-	float: left;
-	width: 90%;
-}
-#container .container5 .timeline .time li .time_text .date{
-    font-weight: 700;
-}
-#container .container5 .timeline .time li .time_text .underline{
-    background-color: #000;
-    width: 25px;
-    height: 2px;
-    margin: 10px 0;
-}
-#container .container5 .timeline .time .time2 .time_text .underline,
-#container .container5 .timeline .time .time4 .time_text .underline,
-#container .container5 .timeline .time .time6 .time_text .underline{
-    text-align: right;
-    display: inline-block;
-}
-#container .container5 .timeline .time li .time_text h5{
-    font-weight: 700;
-    line-height: 1.4
-}
-#container .container5 .timeline .time li .time_text .desc{
+#container .container4 .con4_t{
+	line-height: 2;
     font-size: 1.5rem;
-    line-height: 1.4;
-    margin-top: 10px;
+	margin-top: 10px;
+	font-weight: 100;
 }
-#container .container5 .timeline .time .time_dot,
-#container .container5 .timeline .time .time_dot,
-#container .container5 .timeline .time .time_dot{
-    margin-right: 13px;
-    float: left
+#container .container4 .con4_t b{
+	color: #22408f;
+	font-weight: normal;
+}
+#container .container5 .title5{
+	margin-bottom: 20px;
+	font-size: 6rem;
+	font-weight: 700;
+	letter-spacing: -1px;
+	animation-delay: 0.8s;
 }
 
-
-
-/***************************************************/
-.move1{
-    -moz-animation-name: skillline1;
-    -webkit-animation-name: skillline1;
-    -ms-animation-name: skillline1;
-    -o-animation-name: skillline1;
-    animation-name: skillline1;
-    -moz-animation-duration: 2s;
-    -webkit-animation-duration: 2s;
-    -ms-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    animation-duration: 2s;
-    -moz-animation-fill-mode:both;
-    -webkit-animation-fill-mode:both;
-    -ms-animation-fill-mode:both;
-    -o-animation-fill-mode:both;
-    animation-fill-mode:both;
-}
-@-moz-keyframes skillline1{from{width: 0;opacity: 0;}to{width: 95%;opacity: 1;}}
-@-webkit-keyframes skillline1{from{width: 0;opacity: 0;}to{width: 95%;opacity: 1;}}
-@-ms-keyframes skillline1{from{width: 0;opacity: 0;}to{width: 95%;opacity: 1;}}
-@-o-keyframes skillline1{from{width: 0;opacity: 0;}to{width: 95%;opacity: 1;}}
-@keyframes skillline1{from{width: 0;opacity: 0;}to{width: 95%;opacity: 1;}}
-
-.move2{
-    -moz-animation-name: skillline2;
-    -webkit-animation-name: skillline2;
-    -ms-animation-name: skillline2;
-    -o-animation-name: skillline2;
-    animation-name: skillline2;
-    -moz-animation-duration: 2s;
-    -webkit-animation-duration: 2s;
-    -ms-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    animation-duration: 2s;
-    -moz-animation-fill-mode:both;
-    -webkit-animation-fill-mode:both;
-    -ms-animation-fill-mode:both;
-    -o-animation-fill-mode:both;
-    animation-fill-mode:both;
-}
-@-moz-keyframes skillline2{from{width: 0;opacity: 0;}to{width: 95%;opacity: 1;}}
-@-webkit-keyframes skillline2{from{width: 0;opacity: 0;}to{width: 95%;opacity: 1;}}
-@-ms-keyframes skillline2{from{width: 0;opacity: 0;}to{width: 95%;opacity: 1;}}
-@-o-keyframes skillline2{from{width: 0;opacity: 0;}to{width: 95%;opacity: 1;}}
-@keyframes skillline2{from{width: 0;opacity: 0;}to{width: 95%;opacity: 1;}}
-
-.move3{
-    -moz-animation-name: skillline3;
-    -webkit-animation-name: skillline3;
-    -ms-animation-name: skillline3;
-    -o-animation-name: skillline3;
-    animation-name: skillline3;
-    -moz-animation-duration: 2s;
-    -webkit-animation-duration: 2s;
-    -ms-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    animation-duration: 2s;
-    -moz-animation-fill-mode:both;
-    -webkit-animation-fill-mode:both;
-    -ms-animation-fill-mode:both;
-    -o-animation-fill-mode:both;
-    animation-fill-mode:both;
-}
-@-moz-keyframes skillline3{from{width: 0;opacity: 0;}to{width: 80%;opacity: 1;}}
-@-webkit-keyframes skillline3{from{width: 0;opacity: 0;}to{width: 80%;opacity: 1;}}
-@-ms-keyframes skillline3{from{width: 0;opacity: 0;}to{width: 80%;opacity: 1;}}
-@-o-keyframes skillline3{from{width: 0;opacity: 0;}to{width: 80%;opacity: 1;}}
-@keyframes skillline3{from{width: 0;opacity: 0;}to{width: 80%;opacity: 1;}}
-
-.move4{
-    -moz-animation-name: skillline4;
-    -webkit-animation-name: skillline4;
-    -ms-animation-name: skillline4;
-    -o-animation-name: skillline4;
-    animation-name: skillline4;
-    -moz-animation-duration: 2s;
-    -webkit-animation-duration: 2s;
-    -ms-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    animation-duration: 2s;
-    -moz-animation-fill-mode:both;
-    -webkit-animation-fill-mode:both;
-    -ms-animation-fill-mode:both;
-    -o-animation-fill-mode:both;
-    animation-fill-mode:both;
-}
-@-moz-keyframes skillline4{from{width: 0;opacity: 0;}to{width: 50%;opacity: 1;}}
-@-webkit-keyframes skillline4{from{width: 0;opacity: 0;}to{width: 50%;opacity: 1;}}
-@-ms-keyframes skillline4{from{width: 0;opacity: 0;}to{width: 50%;opacity: 1;}}
-@-o-keyframes skillline4{from{width: 0;opacity: 0;}to{width: 50%;opacity: 1;}}
-@keyframes skillline4{from{width: 0;opacity: 0;}to{width: 50%;opacity: 1;}}
-
-.move5{
-    -moz-animation-name: skillline5;
-    -webkit-animation-name: skillline5;
-    -ms-animation-name: skillline5;
-    -o-animation-name: skillline5;
-    animation-name: skillline5;
-    -moz-animation-duration: 2s;
-    -webkit-animation-duration: 2s;
-    -ms-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    animation-duration: 2s;
-    -moz-animation-fill-mode:both;
-    -webkit-animation-fill-mode:both;
-    -ms-animation-fill-mode:both;
-    -o-animation-fill-mode:both;
-    animation-fill-mode:both;
-}
-@-moz-keyframes skillline5{from{width: 0;opacity: 0;}to{width: 30%;opacity: 1;}}
-@-webkit-keyframes skillline5{from{width: 0;opacity: 0;}to{width: 30%;opacity: 1;}}
-@-ms-keyframes skillline5{from{width: 0;opacity: 0;}to{width: 30%;opacity: 1;}}
-@-o-keyframes skillline5{from{width: 0;opacity: 0;}to{width: 30%;opacity: 1;}}
-@keyframes skillline5{from{width: 0;opacity: 0;}to{width: 30%;opacity: 1;}}
-
-.move6{
-    -moz-animation-name: skillline6;
-    -webkit-animation-name: skillline6;
-    -ms-animation-name: skillline6;
-    -o-animation-name: skillline6;
-    animation-name: skillline6;
-    -moz-animation-duration: 2s;
-    -webkit-animation-duration: 2s;
-    -ms-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    animation-duration: 2s;
-    -moz-animation-fill-mode:both;
-    -webkit-animation-fill-mode:both;
-    -ms-animation-fill-mode:both;
-    -o-animation-fill-mode:both;
-    animation-fill-mode:both;
-}
-@-moz-keyframes skillline6{from{width: 0;opacity: 0;}to{width: 30%;opacity: 1;}}
-@-webkit-keyframes skillline6{from{width: 0;opacity: 0;}to{width: 30%;opacity: 1;}}
-@-ms-keyframes skillline6{from{width: 0;opacity: 0;}to{width: 30%;opacity: 1;}}
-@-o-keyframes skillline6{from{width: 0;opacity: 0;}to{width: 30%;opacity: 1;}}
-@keyframes skillline6{from{width: 0;opacity: 0;}to{width: 30%;opacity: 1;}}
-
-
-
-/*********************************************************/
 
 /**********(1200)***********/
 @media screen and (max-width: 1200px){
-	#container .container1,
+	#container .container1 .con1_tit,
 	#container .container2,
-	#container .container3 .title,
-	#container .container3 .skill_desc,
-	#container .container3 .skill_list,
+	#container .container3 .con3_tit,
 	#container .container4,
 	#container .container5{
 		width: 92%;
@@ -718,308 +390,87 @@ body{
 	#container {
 		margin-top: 66px;
 	}
-    #container .container4{
-        margin-top: 130px;
-        margin-bottom: 126px;
-    }
-	#container .container4 ul li{
-		width: 50%;
-		margin-bottom: 50px;
-	}
 }
 /*****(780)*****/
 @media screen and (max-width: 780px){
 	#container{
 		margin-top: 55px;
 	}
-	#container .tit_line{
-		height: 200px;
-		-moz-animation-name: titline1;
-		-webkit-animation-name: titline1;
-		-ms-animation-name: titline1;
-		-o-animation-name: titline1;
-		animation-name: titline1;
-	}
-	@-moz-keyframes titline1{
-		from{
-			height: 0px;
-		}
-		to{
-			height: 200px;
-		}
-	} 
-	@-webkit-keyframes titline1{
-		from{
-			height: 0px;
-		}
-		to{
-			height: 200px;
-		}
-	} 
-	@-ms-keyframes titline1{
-		from{
-			height: 0px;
-		}
-		to{
-			height: 200px;
-		}
-	} 
-	@-o-keyframes titline1{
-		from{
-			height: 0px;
-		}
-		to{
-			height: 200px;
-		}
-	} 
-	@keyframes titline1{
-		from{
-			height: 0px;
-		}
-		to{
-			height: 200px;
-		}
-	} 
-	#container .container1{
-		padding: 0;
-		margin-top: 40px;
-	}
-    #container .container1 .title{
-        font-size: 5rem;
-    }
+	#container .container1 .con1_tit,
 	#container .container2,
-	#container .container3 .title,
-	#container .container3 .skill_desc,
-	#container .container3 .skill_list,
+	#container .container3 .con3_tit,
 	#container .container4,
 	#container .container5{
 		padding: 0;
+		padding-top: 40px;
+	}
+	#container .container1 .con1_img{
+		top: 90%;
+		right: 0;
+	}
+	#container .container1 .con1_tit{
 		margin-top: 40px;
 	}
-	#container .container2 .con2_img{
+	#container .container1 .con1_tit .title{
+		font-size: 5rem;
+	}
+	#container .container2 .chart ul li p.chart_tit{
+		width: 25%;
+	}
+	#container .container2 .chart ul li p.chart_line{
 		width: 60%;
-		height: 300px;
-		margin: 0 auto;
-		float: none;
 	}
-	#container .container2 .intro{
+	#container .container3 .con3_tit{
+		padding-top: 0;
+	}
+	#container .container3 .con3_tit .desc{
 		width: 100%;
-		float: none;
 	}
-	#container .container2 .intro li{
-		font-size: 1.5rem;
+	#container .container3 .con3_tit .desc button{
+		margin: 0 auto;
+		margin-top: 50px;
 	}
-	#container .container2 .intro li .intro_p{
-		margin-right: 10px;
+	#container .container3 .con3_tit .con3_img{
+		width: 100%;
+		padding: 10%;
+		box-sizing: border-box;
+		margin-top: 30px;
 	}
-	#container .container2 .intro li .pick{
-		width: 26px;
-		height: 26px;
-	}
-	#container .container2 .con2_t ul li{
-		font-size: 1.6rem;
-	}
-	#container .container3 .skill_list li .skill_tit{
-		font-size: 1.6rem;
-	}
-	#container .container3 .skill_list li h5.skill_tit{
-		width: 25%
-	}
-	#container .container3 .skill_list li .bar{
-		width: 65%;
-	}
-	#container .container3 .skill_list li h4.skill_tit{
-		padding-left: 10px;
-	}
-    #container .container4{
-        margin-top: 110px;
-        margin-bottom: 106px;
-    }
-    #container .container4 .thinking{
-        font-size: 2rem;
-    }
-    #container .container5 .timeline .timeline_line{
-        height: 1950px;
-    }
-    #container .container5 .timeline .time li{
-        font-size: 1.6rem;
-    }
-    #container .container5 .timeline .time li .time_text h5{
-        line-height: 1.3;
-    }
-    #container .container5 .timeline .time li .time_text .desc{
-        font-size: 1.4rem;
-    }
-
 }
 /***********(480)**********/
 @media screen and (max-width: 480px){
     #container{
         margin-top: 50px
     }
-    #container .text{
-        font-size: 1.6rem
-    }
-    #container .container1 .title{
-        font-size: 3rem;
-    }
-    #container .container1 .title .tit1{
-        margin-bottom: 14px;
-    }
-    #container .container1 .title_desc{
-        font-size: 1.8rem
-    }
-    #container .container1  .titline{
-        margin: 35px auto 25px auto;
-    }
-    @-moz-keyframes titline{
-        from{
-            height: 0px;
-        }
-        to{
-            height: 150px;
-        }
-    } 
-    @-webkit-keyframes titline{
-        from{
-            height: 0px;
-        }
-        to{
-            height: 150px;
-        }
-    } 
-    @-ms-keyframes titline{
-        from{
-            height: 0px;
-        }
-        to{
-            height: 150px;
-        }
-    } 
-    @-o-keyframes titline{
-        from{
-            height: 0px;
-        }
-        to{
-            height: 150px;
-        }
-    } 
-    @keyframes titline{
-        from{
-            height: 0px;
-        }
-        to{
-            height: 150px;
-        }
-    }
-	#container .container2 .con2_img{
-		width: 80%;
-		height: 250px;
+	#container .container1 .con1_img{
+		top: 100%;
+		right: 0;
 	}
-	#container .container2 .con2_t ul li{
-		font-size: 1.3rem;
-		line-height: 1.1;
+	#container .container1 .con1_tit{
+		margin-top: 20px;
 	}
-    #container .container6 .title{
-        margin-bottom: 20px;
-        font-size: 3.2rem;
-    }
-    #container .container6 .resume_desc_web{
-        display: none;
-    }
-    #container .container6 .resume_desc_mobile{
-        font-size: 1.6rem;
-        display: block;
-    }
-	#container .container3 .title,
-	#container .container3 .skill_desc,
-	#container .container3 .skill_list{
-		width: 93%;	
+	#container .container1 .con1_tit .title{
+		font-size: 3rem;
 	}
-	#container .container3 .skill_list li .skill_tit{
-		font-size: 1.4rem;
-	}
-	#container .container3 .skill_list li h5.skill_tit{
-		width: 28%;
-	}
-	#container .container3 .skill_list li h4.skill_tit{
-		width: 10%;
-	}
-	#container .container3 .skill_list li .bar{
-		width: 62%;
-	}
-    #container .container4{
-        margin-top: 90px;
-        margin-bottom: 86px;
-    }
-	#container .container4 ul li{
-		width: 100%;
-		margin-bottom: 50px;
-	}
-	#container .container4 ul li .con4_img{
-		float: left;
+	#container .container2 .chart ul li p.chart_tit{
 		width: 30%;
 	}
-	#container .container4 ul li .con4_tit{
-		float: left;
-		width: 70%;
-		margin-top: 5px;
-		margin-bottom: 5px;
-		padding-left: 20px;
-		box-sizing: border-box;
-		text-align: left;
+	#container .container2 .chart ul li p.chart_t{
+		width: 20%;
 	}
-	#container .container4 ul li .con4_t{
-		float: left;
-		width: 70%;
-		margin-bottom: 10px;
-		padding-left: 20px;
-		box-sizing: border-box;
-		text-align: left;
-	}
-	#container .container4 ul li .con4_link{
-		float: left;
-		width: 70%;
-		padding-left: 20px;
-		box-sizing: border-box;
-	}
-	#container .container4 ul li .con4_link a{
+	#container .container2 .chart ul li p.chart_line{
 		width: 50%;
 	}
-	
-    #container .container5 .title{
-        margin-bottom: 30px;
-        font-size: 3.2rem;
-    }
-	#container .container5 .timeline .time{
-		left: 5px;
+	#container .container3 .con3_tit .con3_img{
+		padding: 0;
+		margin-top: 50px;
 	}
-    #container .container5 .timeline .timeline_line{
-        height: 1750px;
-		margin-left: 10px;
-    }
-    #container .container5 .timeline .time li{
-        font-size: 1.4rem;
-        margin-bottom: 30px
-    }
-    #container .container5 .timeline .time li .time_text .underline{
-        width: 25px;
-        height: 1.5px;
-        margin: 7px 0 6px 0px;
-    }
-    #container .container5 .timeline .time li .time_text .desc{
-        font-size: 1.3rem;
-        margin-top: 8px
-    }
 }
 /*****(375)*****/
-@media screen and (max-width: 375px){  
-    #container .text{
-        font-size: 1.5rem
-    }
+@media screen and (max-width: 375px){
 }
 /*****(365)*****/
-@media screen and (max-width: 360px){ 
+@media screen and (max-width: 360px){
 }
 
 
