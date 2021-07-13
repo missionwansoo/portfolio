@@ -396,7 +396,7 @@ body{
 	float: left;
     position: relative;
 }
-#container .container3 .skill_list li .bar .line{
+#container .container3 .skill_list li .bar .skill_line{
     position: absolute;
 	height: 20px;
     border-radius: 100px;
@@ -406,27 +406,27 @@ body{
 	left: 5px;
 	background-color: #fff;
 }
-#container .container3 .skill_list .ps .bar .line{
+#container .container3 .skill_list .ps .bar .skill_line{
     background-color: #fff220;   
     width: 95%;
 }
-#container .container3 .skill_list .ai .bar .line{
+#container .container3 .skill_list .ai .bar .skill_line{
     background-color: #ff6c00;   
     width: 95%;
 }
-#container .container3 .skill_list .ht .bar .line{
+#container .container3 .skill_list .ht .bar .skill_line{
     background-color: #ff00fe;   
     width: 80%;
 }
-#container .container3 .skill_list .ja .bar .line{
+#container .container3 .skill_list .ja .bar .skill_line{
     background-color: #fe0000;   
     width: 50%;
 }
-#container .container3 .skill_list .af .bar .line{
+#container .container3 .skill_list .af .bar .skill_line{
     background-color: #00ff00;   
     width: 30%;
 }
-#container .container3 .skill_list .pm .bar .line{
+#container .container3 .skill_list .pm .bar .skill_line{
     background-color: #0000fe;   
     width: 30%;
 }
