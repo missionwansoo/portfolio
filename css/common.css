@@ -22,7 +22,8 @@ body{
 #loading-image { 
 	position: absolute; 
 	top: 50%; 
-	left: 50%; 
+	left: 50%;
+	transform: translate(-50%, -50%);
 	z-index: 100; 
 }
 
@@ -446,6 +447,7 @@ body{
         top:9px;
     }
     #header .header_menu .top .header_mobile .m_hambtn .m_line3{
+		width: 15px;
         bottom:0;
     }
     #header .header_menu .top .header_mobile .m_close{
