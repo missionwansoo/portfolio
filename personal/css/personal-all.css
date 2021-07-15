@@ -199,10 +199,10 @@ body{
     opacity: 0.1;
     transition: 0.5s;
 }
-#container .container1 .content li:hover .hidden{
+#container .container1 .content li a:hover .hidden{
     background: #22408f;
 }
-#container .container1 .content li:hover button{
+#container .container1 .content li a:hover button{
 	display: block;
 	transition: 0.5s;
 }
