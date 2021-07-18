@@ -1,0 +1,152 @@
+#visual .visual_img{
+    background-image: url(../img/project24/personal24_visual.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#container img{
+	width: 100%;
+}
+#container h3.sub_tit{
+	font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-family: 'Nexa';
+	box-sizing: border-box;
+}
+#container p.desc,
+#container p.desc1,
+#container p.desc2{
+	line-height: 1.5;
+    font-size: 1.7rem;
+	margin-bottom: 15px;
+}
+#container .container3,
+#container .container4,
+#container .container5,
+#container .container6,
+#container .container7,
+#container .container8{
+    padding: 0 40px;
+    width: 83%;
+    max-width: 1245px;
+    text-align: left;
+	box-sizing: border-box;
+	margin-top: 80px;
+}
+#container .container3 .desc a,
+#container .container4 .desc a,
+#container .container5 .desc a,
+#container .container6 .desc a,
+#container .container7 .desc a,
+#container .container8 .desc a{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	display: block;
+	text-decoration: underline;
+	-webkit-animation-name:movingPara;
+	-webkit-animation-duration:4s;
+	animation-name:movingPara;
+	animation-duration:4s;
+	-webkit-animation-iteration-count:infinite;
+	animation-iteration-count:infinite;
+}
+@-webkit-keyframes movingPara{
+	0%{color:orange}
+	20%{color:#ff0}
+	40%{color:red}
+	80%{color:#00f}
+	100%{color:orange}
+}
+@keyframes movingPara{
+	0%{color:orange}
+	20%{color:#ff0}
+	40%{color:red}
+	80%{color:#00f}
+	100%{color:orange}
+}
+#container .container3 .con3_img img,
+#container .container4 .con4_img img,
+#container .container5 .con5_img img,
+#container .container6 .con6_img img,
+#container .container7 .con7_img img,
+#container .container8 .con8_img img{
+	float: left;
+	width: 50%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+
+/**********(1200)***********/
+@media screen and (max-width: 1200px){
+	#container .container3,
+	#container .container4,
+	#container .container5,
+	#container .container6,
+	#container .container7,
+	#container .container8{
+		width: 92%;
+	}
+}
+/*****(1024-780)*****/
+@media screen and (max-width: 1024px){
+}
+/*****(780)*****/
+@media screen and (max-width: 780px){
+	#container .container3,
+	#container .container4,
+	#container .container5,
+	#container .container6,
+	#container .container7,
+	#container .container8{
+		margin-top: 60px;
+		padding: 0;
+	}
+	#container .container3 .sub_tit,
+	#container .container4 .sub_tit,
+	#container .container5 .sub_tit,
+	#container .container6 .sub_tit,
+	#container .container7 .sub_tit,
+	#container .container8 .sub_tit{
+    	font-size: 3rem;
+	}
+}
+/***********(480)**********/
+@media screen and (max-width: 480px){
+	#container .container3,
+	#container .container4,
+	#container .container5,
+	#container .container6,
+	#container .container7,
+	#container .container8{
+		margin-top: 40px;
+	}
+	#container .container3 .sub_tit,
+	#container .container4 .sub_tit,
+	#container .container5 .sub_tit,
+	#container .container6 .sub_tit,
+	#container .container7 .sub_tit,
+	#container .container8 .sub_tit{
+    	font-size: 2rem;
+	}
+}
+/*****(375)*****/
+@media screen and (max-width: 375px){  
+}
+/*****寃붾윮��(360)*****/
+@media screen and (max-width: 360px){ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
