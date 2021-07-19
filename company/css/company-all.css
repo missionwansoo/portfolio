@@ -83,6 +83,7 @@ body{
     margin-bottom:30px;
     opacity: 0;
     margin-top: 100px;
+	vertical-align: top;
 }
 #container .container1 .content li:nth-child(1),
 #container .container1 .content li:nth-child(2),
