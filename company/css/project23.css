@@ -32,16 +32,6 @@
 	box-sizing: border-box;
 	margin-top: 80px;
 }
-#container .container3 .con3_img{
-	width: 70%;
-	margin: 0 auto;
-}
-#container .container5 .con5_img img{
-	float: left;
-	width: 50%;
-	padding: 5px;
-	box-sizing: border-box;
-}
 #container .container6 ul{
 	border: 2px solid #222;
 	padding: 20px;
@@ -82,9 +72,6 @@
 	#container .container7 .sub_tit{
     	font-size: 3rem;
 	}
-	#container .container3 .con3_img{
-		width: 90%;
-	}
 }
 /***********(480)**********/
 @media screen and (max-width: 480px){
@@ -101,9 +88,6 @@
 	#container .container6 .sub_tit,
 	#container .container7 .sub_tit{
     	font-size: 2rem;
-	}
-	#container .container3 .con3_img{
-		width: 100%;
 	}
 }
 /*****(375)*****/
